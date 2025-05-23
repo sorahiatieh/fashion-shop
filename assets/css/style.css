@@ -1,0 +1,257 @@
+
+        body {
+            font-family: 'Vazir', sans-serif;
+        }
+        
+        /* هدر و منو */
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .nav-item .nav-link {
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            position: relative;
+        }
+        
+        .nav-item .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            background-color: #000;
+            transition: width 0.3s ease, left 0.3s ease;
+        }
+        
+        .nav-item .nav-link:hover::after {
+            width: 80%;
+            left: 10%;
+        }
+        
+        /* اسلایدر */
+        .hero-slider {
+            height: 500px;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .slide-content {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 500px;
+        }
+        
+        /* دسته‌بندی‌ها */
+        .category-item {
+            text-align: center;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+        
+        .category-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .category-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 15px;
+            background-color: #f8f9fa;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+        }
+        
+        /* محصولات */
+        .product-card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .product-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 10;
+        }
+        
+        .wishlist-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            background-color: white;
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .product-card:hover .wishlist-btn {
+            opacity: 1;
+        }
+        
+        /* تایمر تخفیف */
+        .countdown-timer {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .countdown-box {
+            background-color: #212529;
+            color: white;
+            padding: 10px;
+            min-width: 50px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .countdown-box .number {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .countdown-box .label {
+            font-size: 0.8rem;
+        }
+        
+        /* مزایا */
+        .benefits-item {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            background-color: #f8f9fa;
+            transition: transform 0.3s ease;
+        }
+        
+        .benefits-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .benefits-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #212529;
+        }
+        
+        /* نظرات مشتریان */
+        .testimonial-card {
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .testimonial-card::before {
+            content: '❝';
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 2rem;
+            color: #ddd;
+        }
+        
+        /* خبرنامه */
+        .newsletter-section {
+            background-color: #212529;
+            color: white;
+            padding: 40px 0;
+        }
+        
+        /* فوتر */
+        footer {
+            background-color: #f8f9fa;
+            padding: 40px 0 20px;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            background-color: #212529;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 35px;
+            margin-left: 10px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background-color: #6c757d;
+        }
+        
+        /* ریسپانسیو */
+        @media (max-width: 767.98px) {
+            .hero-slider {
+                height: 350px;
+            }
+            
+            .product-img {
+                height: 200px;
+            }
+            
+            .slide-content {
+                padding: 1rem;
+                max-width: 300px;
+            }
+        }
+        
+        @media (max-width: 575.98px) {
+            .hero-slider {
+                height: 250px;
+            }
+            
+            .product-img {
+                height: 180px;
+            }
+            
+            .slide-content h1 {
+                font-size: 1.5rem;
+            }
+            
+            .category-icon {
+                width: 60px;
+                height: 60px;
+                font-size: 1.4rem;
+            }
+        }
+   
