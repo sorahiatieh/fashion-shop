@@ -3,7 +3,9 @@
 ![Screenshot 2025-05-19 122420](https://github.com/user-attachments/assets/5e94647f-7cb6-4f74-9b25-01fe7b327875)
 ![Screenshot 2025-05-19 122452](https://github.com/user-attachments/assets/bc36f85c-e180-4fa8-b115-0afa74f4b5db)
 
+##  توضیحات جدید
 
+- این پروژه به یک پروژه فروشگاهی به زبان php تبدیل شده
 
 <div dir="rtl">
 
