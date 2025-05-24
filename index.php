@@ -24,119 +24,12 @@
 
     <!-- هدر و منو -->
     <header class="py-3 border-bottom sticky-top bg-white">
-        <div class="container">
-            <div class="row align-items-center">
-                <!-- لوگو در موبایل -->
-                <div class="col-6 d-flex d-lg-none">
-                    <a href="index.php" class="navbar-brand">نکستژن</a>
-                </div>
-                
-                <!-- آیکون‌های راست موبایل -->
-                <div class="col-6 d-flex justify-content-end d-lg-none">
-                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-                        <i class="bi bi-list fs-4"></i>
-                    </button>
-                </div>
-                
-                <!-- منوی دسکتاپ -->
-                <div class="col-lg-8 d-none d-lg-block">
-                    <div class="d-flex align-items-center">
-                        <a href="index.php" class="navbar-brand me-4">نکستژن</a>
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">زنانه</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">مردانه</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">بچگانه</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">جدیدترین‌ها</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">تخفیف‌ها</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- آیکون‌های راست دسکتاپ -->
-                <div class="col-lg-4 d-none d-lg-flex justify-content-end">
-                    <div class="d-flex align-items-center">
-                        <div class="position-relative me-3">
-                            <a href="#" class="btn">
-                                <i class="bi bi-search fs-5"></i>
-                            </a>
-                        </div>
-                        <div class="position-relative me-3">
-                            <a href="#" class="btn">
-                                <i class="bi bi-person fs-5"></i>
-                            </a>
-                        </div>
-                        <div class="position-relative">
-                            <a href="#" class="btn">
-                                <i class="bi bi-bag fs-5"></i>
-                                <span class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-danger">
-                                    2
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php
+            require "pages/requires/menu.php";
+        ?>
     </header>
     
-    <!-- منوی موبایل -->
-    <div class="offcanvas offcanvas-start" id="mobileMenu" tabindex="-1">
-        <div class="offcanvas-header border-bottom">
-            <h5 class="offcanvas-title">منو</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-        </div>
-        <div class="offcanvas-body">
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a href="#" class="nav-link py-3 border-bottom">زنانه</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link py-3 border-bottom">مردانه</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link py-3 border-bottom">بچگانه</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link py-3 border-bottom">جدیدترین‌ها</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link py-3 border-bottom">تخفیف‌ها</a>
-                </li>
-            </ul>
-            
-            <div class="mt-4">
-                <div class="d-flex justify-content-between mb-3">
-                    <a href="#" class="btn btn-outline-dark w-100 me-2">
-                        <i class="bi bi-person"></i>
-                        حساب کاربری
-                    </a>
-                    <a href="#" class="btn btn-outline-dark w-100">
-                        <i class="bi bi-bag"></i>
-                        سبد خرید
-                    </a>
-                </div>
-                
-                <div class="mt-3">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="جستجو...">
-                        <button class="btn btn-outline-dark">
-                            <i class="bi bi-search"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     
     <!-- اسلایدر اصلی -->
     <div class="swiper hero-slider mb-5">
@@ -538,62 +431,9 @@
     
     <!-- فوتر -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="mb-3">نکستژن</h5>
-                    <p class="text-muted">ما لباس‌هایی داریم که با سبک شما مطابقت دارند و به آن‌ها افتخار می‌کنیم. از زنان تا مردان.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="mb-3">دسترسی سریع</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">صفحه اصلی</a></li>
-                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">محصولات</a></li>
-                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">درباره ما</a></li>
-                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">تماس با ما</a></li>
-                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">وبلاگ</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="mb-3">راهنما</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">راهنمای خرید</a></li>
-                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">نحوه ارسال</a></li>
-                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">سوالات متداول</a></li>
-                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">شرایط و قوانین</a></li>
-                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">حریم خصوصی</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="mb-3">تماس با ما</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>تهران، خیابان ولیعصر، پلاک 123</li>
-                        <li class="mb-2"><i class="bi bi-telephone me-2"></i>021-12345678</li>
-                        <li class="mb-2"><i class="bi bi-envelope me-2"></i>info@nextgen.com</li>
-                    </ul>
-                    <div class="mt-3">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visa/visa-original.svg" alt="Visa" class="me-2" width="40">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mastercard/mastercard-original.svg" alt="MasterCard" class="me-2" width="40">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/paypal/paypal-original.svg" alt="PayPal" class="me-2" width="40">
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="small text-muted mb-0">© 2023 نکستژن. تمامی حقوق محفوظ است.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <p class="small text-muted mb-0">طراحی و توسعه توسط <a href="#" class="text-decoration-none">تیم نکستژن</a></p>
-                </div>
-            </div>
-        </div>
+        <?php
+            require "pages/requires/footer.php";
+        ?>
     </footer>
     
     <!-- اسکریپت‌ها -->
