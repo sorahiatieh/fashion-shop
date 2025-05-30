@@ -5,20 +5,22 @@
 ?>
 <div class="container">
     <?php
-        //خدمات شرکت-
-	    require SECTIONS."main/popular_categorie.view .php";
-        // آخرین نمونه کارها
-	    require SECTIONS."main/best_selling.view.php";
-        // آخرین های وبلاگ
-	    require SECTIONS."main/discounts.view.php";
-        //   <!-- بنر تبلیغاتی -->
-	    require SECTIONS."main/advertising_banner.view.php";
-        //     <!-- مزایای خرید از ما -->
-	    require SECTIONS."main/benefits_buying.view.php";
-        //  <!-- نظرات مشتریان -->
-	    require SECTIONS."main/customer_reviews.view.php";
-        //     <!-- عضویت در خبرنامه -->
-	    require SECTIONS."main/subscribe_newsletter.view.php";
+    // اسلایدر
+	require SECTIONS."main/slider.view.php";
+	// دسته بندی های پرطرفدار
+	require SECTIONS."main/popular_categories.view.php";
+	// محصولات پرفروش
+	require SECTIONS."main/best_selling.view.php";
+	//پیشنهاد ویژه
+	require SECTIONS."main/benefits_buying.view.php";
+	// بنر تبلیغاتی
+	require SECTIONS."main/advertising_banner.view.php";
+	//چرا نکسترن
+	require SECTIONS."main/discounts.view.php";
+	// نظر مشتریان
+	require SECTIONS."main/customer_reviews.view.php";
+	//عضویت در خبرنامه
+	require SECTIONS."main/subscribe_newsletter.view.php";
     ?>
 </div>
 

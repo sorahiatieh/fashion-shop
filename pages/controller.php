@@ -71,7 +71,7 @@
 		Base::setPageName("404");
 	}
 	
-	require "pages/requires/header.controller.php";
+	require "pages/requires/menu.controller.php";
 	/*echo "<pre>";
 	print_r(Base::$data);
 	echo "</pre>";

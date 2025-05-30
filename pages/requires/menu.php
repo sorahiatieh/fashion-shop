@@ -1,3 +1,9 @@
+<?php
+	defined("_AST") or die("Access denied");
+    $page=new DB_PAGE();
+    
+    $ListOfMenu=Base::getData("_menus");
+    ?>
 <div class="container">
             <div class="row align-items-center">
                 <!-- لوگو در موبایل -->

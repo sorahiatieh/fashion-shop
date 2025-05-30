@@ -5,16 +5,21 @@
 	
 	// اسلایدر
 	require SECTIONS."main/slider.controller.php";
-	// بخش سرویس ها
-	require SECTIONS."main/services.controller.php";
-	// آخرین نمونه کارها
-	require SECTIONS."main/portfolio.controller.php";
-	// آخرین های وبلاگ
-	require SECTIONS."main/last_blogs.controller.php";
-	//چرا باید شرکت ما را انتخاب نمایید
-	require SECTIONS."main/why_choice.controller.php";
-	// شعار شرکت
-	require SECTIONS."main/slogan.controller.php";
+	// دسته بندی های پرطرفدار
+	require SECTIONS."main/popular_categories.controller.php";
+	// محصولات پرفروش
+	require SECTIONS."main/best_selling.controller.php";
+	//پیشنهاد ویژه
+	require SECTIONS."main/benefits_buying.controller.php";
+	// بنر تبلیغاتی
+	require SECTIONS."main/advertising_banner.controller.php";
+	//چرا نکسترن
+	require SECTIONS."main/discounts.controller.php";
+	// نظر مشتریان
+	require SECTIONS."main/customer_reviews.controller.php";
+	//عضویت در خبرنامه
+	require SECTIONS."main/subscribe_newsletter.controller.php";
+	
 	
 	
 	Base::setData("main",$CP);
