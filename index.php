@@ -1,8 +1,17 @@
+<?php
+    define("_AST",1);
+    require "include/inc.php";
+    /*var_dump($_GET);
+    exit;*/
+    
+   require  PAGE_PATH.'controller.php';
+?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?= Base::getSiteTitle(); ?></title>
     <title>فروشگاه آنلاین نکستژن - صفحه اصلی</title>
     <!-- Bootstrap 5 RTL CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
