@@ -14,7 +14,7 @@
     <title><?= Base::getSiteTitle(); ?></title>
     <title>فروشگاه آنلاین نکستژن - صفحه اصلی</title>
     <!-- Bootstrap 5 RTL CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
     <!-- Vazir Font -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css">
     <!-- Bootstrap Icons -->
