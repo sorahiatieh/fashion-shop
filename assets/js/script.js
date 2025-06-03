@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // راه‌اندازی اسلایدر
 const swiper = new Swiper('.hero-slider', {
     loop: true,
@@ -13,3 +14,4 @@ const swiper = new Swiper('.hero-slider', {
         prevEl: '.swiper-button-prev',
     },
 });
+})

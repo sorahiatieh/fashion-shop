@@ -12,9 +12,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= Base::getSiteTitle(); ?></title>
-    <title>فروشگاه آنلاین نکستژن - صفحه اصلی</title>
-    <!-- Bootstrap 5 RTL CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
+       <!-- Bootstrap 5 RTL CSS -->
+  
     <!-- Vazir Font -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css">
     <!-- Bootstrap Icons -->

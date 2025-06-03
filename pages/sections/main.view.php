@@ -1,5 +1,4 @@
 <?php
-    require SECTIONS."main/slider.view.php";
     
     $CP=Base::getData("main");
 ?>

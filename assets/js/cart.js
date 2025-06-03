@@ -1,3 +1,4 @@
+$(document).ready(function(){
  // اسکریپت برای افزایش و کاهش تعداد محصول
  document.addEventListener('DOMContentLoaded', function() {
     const minusBtns = document.querySelectorAll('.qty-btn:first-child');
@@ -51,3 +52,4 @@
         });
     });
 });
+})

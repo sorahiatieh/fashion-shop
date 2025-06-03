@@ -2,10 +2,10 @@
   $slidere=new DB_SLIDER();
   
   
-  Head::addScript("assets/js/owl.carousel.js");
+  Head::addScript("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js");
   
-  Head::addStylesheet("assets/css/owl.carousel.css");
-  Head::addStylesheet("assets/css/owl.theme.css");
+  Head::addStylesheet("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
+
   
   
   $CP['ListOfSliders']=$slidere->setWheres(array(
