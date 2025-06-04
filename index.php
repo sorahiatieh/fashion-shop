@@ -33,7 +33,7 @@
     <!-- هدر و منو -->
     <header class="py-3 border-bottom sticky-top bg-white">
         <?php
-            require "pages/requires/menu.php";
+            require "pages/requires/menu.view.php";
         ?>
     </header>
     
