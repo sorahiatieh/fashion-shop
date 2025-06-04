@@ -26,7 +26,17 @@
                 <div class="d-flex align-items-center">
                     <a href="index.html" class="navbar-brand me-4">نکستژن</a>
                     <ul class="nav">
-                        <li class="nav-item">
+                    <?php
+                            foreach($ListOfMenu as $item){
+                            
+                        ?>
+                        <li <?= ($item['Active']) ? ' class="nav-item active"':''; ?> >
+                        <a class="nav-link" href="<?= $item['URL']; ?>" <?= ($item['new_window']==1) ? ' target="_blank"': '' ?>><?= $item['title']; ?></a>
+                    </li>
+                    <?php
+	                    }
+                    ?>
+                        <!-- <li class="nav-item">
                             <a href="#" class="nav-link">زنانه</a>
                         </li>
                         <li class="nav-item">
@@ -40,7 +50,7 @@
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">تخفیف‌ها</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
