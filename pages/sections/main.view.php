@@ -7,7 +7,7 @@
     // اسلایدر
 	require SECTIONS."main/slider.view.php";
 	// دسته بندی های پرطرفدار
-	//require SECTIONS."main/popular_categories.view.php";
+	require SECTIONS."main/popular_categories.view.php";
 	// محصولات پرفروش
 	require SECTIONS."main/best_selling.view.php";
 	//پیشنهاد ویژه

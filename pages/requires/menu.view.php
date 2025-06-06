@@ -36,21 +36,6 @@
                     <?php
 	                    }
                     ?>
-                        <!-- <li class="nav-item">
-                            <a href="#" class="nav-link">زنانه</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">مردانه</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">بچگانه</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">جدیدترین‌ها</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">تخفیف‌ها</a>
-                        </li> -->
                     </ul>
                 </div>
             </div>
