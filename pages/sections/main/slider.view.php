@@ -5,8 +5,8 @@
 <div class="swiper hero-slider mb-5">
         <div class="swiper-wrapper">
         <?php
-                    foreach($CP['ListOfSliders'] as $item){
-                ?>
+            foreach($CP['ListOfSliders'] as $item){
+        ?>
             <div class="swiper-slide" style="background-image: url('assets/images/cover/<?= $item['id']; ?>.jpg');">
                 <div class="slide-content">
                     <h1 class="mb-3"><?= $item['title']; ?></h1>
@@ -14,8 +14,8 @@
                     <a href="#" class="btn btn-dark px-4 py-2"><?= $item['more']; ?> </a>
                 </div>
             </div>
-            <?php
-			}
+        <?php
+        }
 		?>
         </div>
         <div class="swiper-pagination"></div>

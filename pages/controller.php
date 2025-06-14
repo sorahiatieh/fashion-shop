@@ -7,15 +7,18 @@
 	Base::setSiteTitle($setting_db->getSetting('site_description'));
 	
 	
-	// Head::addScript("assets/js/jquery-3.0.0.min.js");
-	// Head::addScript("assets/js/bootstrap.min.js");
-	// Head::addScript("assets/js/script.js");
-	// Head::addScript("assets/js/cart.js");
+	 Head::addScript("assets/js/jquery-3.0.0.min.js");
+	 Head::addScript("assets/js/bootstrap.min.js");
+	 Head::addScript("assets/js/swiper-bundle.min.js");
+	 Head::addScript("assets/js/script.js");
+	 Head::addScript("assets/js/cart.js");
 	
-	// Head::addStylesheet("assets/css/bootstrap.rtl.min.css");
-	// Head::addStylesheet("assets/css/font-icon.css");
-	// Head::addStylesheet("assets/css/font-awesome.min.css");
-	// Head::addStylesheet("assets/css/style.css");
+	 Head::addStylesheet("assets/css/bootstrap.rtl.min.css");
+	 Head::addStylesheet("assets/css/Vazirmatn-font-face.css");
+	 Head::addStylesheet("assets/css/font-icon.css");
+	 Head::addStylesheet("assets/css/font-awesome.min.css");
+	 Head::addStylesheet("assets/css/swiper-bundle.min.css");
+	 Head::addStylesheet("assets/css/style.css");
 	
 	
 	

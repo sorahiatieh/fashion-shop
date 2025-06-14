@@ -1,14 +1,20 @@
 <?php
-  $slidere=new DB_SLIDER();
+  $slidere_db=new DB_SLIDER();
   
   
-  Head::addScript("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js");
+  /*Head::addScript("assets/js/swiper-bundle.min.js");
   
-  Head::addStylesheet("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
+  Head::addStylesheet("assets/css/swiper-bundle.min.css");*/
 
   
   
-  $CP['ListOfSliders']=$slidere->setWheres(array(
+  $CP['ListOfSliders']=$slidere_db->setWheres(array(
       "enable"=>1
   ))->getList()->run();
+	
+/*echo "<pre>";
+print_r($CP);
+echo "</pre>";
+exit;*/
+	
 ?>
