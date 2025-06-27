@@ -19,7 +19,7 @@
 	
 	
 	if(!isset($_GET['page']))
-		$_GET['page']="products";
+		$_GET['page']="main";
 	
 	//var_dump($_GET);
 	$pagename =secure($_GET['page']);

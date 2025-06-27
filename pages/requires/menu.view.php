@@ -18,12 +18,11 @@
 			}
 		?>
 	</ul>
+    <a class="logo" href="index.php">
+        <img src="assets/img/logo.jpg" alt="">
+    </a>
 	<a class="btn cart" href="">
 		<img src="assets/img/cart.png" class="cart-png" alt="cart-png">
 	</a>
 </div>
-<div class="slider">
-    <?php
-        require "slider.view.php";
-    ?>
-</div>
+
