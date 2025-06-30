@@ -6,7 +6,7 @@
 		<h2 class="titr"><?= $CP['servicesBoxTitle']; ?></h2>
 	</div>
     <?php
-        foreach($CP['ListOfPortfolioes'] as $item){
+        foreach($CP['ListOfProducts'] as $item){
     ?>
 	<div class="item col-md-3 col-sm-6 col-xs-6">
 		<a href="index.php?page=show_portfolio&id=<?= $item['id']; ?>">

@@ -22,7 +22,7 @@
 	Base::setPageDetails("title",count($items)." محصول آخر");
 	$CP['Items']=$items;
 	
-	Base::setData("projects",$CP);
+	Base::setData("products",$CP);
 	
 	
 	/*	echo "<pre>";

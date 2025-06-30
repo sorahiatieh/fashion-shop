@@ -1,6 +1,6 @@
 <?php
 	defined("_AST") or die("Access denied");
-	$CP=Base::getData("projects");
+	$CP=Base::getData("products");
 	
 	$pageDetails=Base::getPageDetails();
 ?>

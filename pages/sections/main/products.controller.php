@@ -1,7 +1,7 @@
 <?php
-  $portfolio=new DB_PORTFOLIO();
+  $product_db=new DB_PRODUCTS();
   $setting=new DB_SETTING();
   
-  $CP['ListOfPortfolioes']=$portfolio->setLimit(4)->getList()->run();
+  $CP['ListOfProducts']=$product_db->setLimit(4)->getList()->run();
   //$CP['servicesBoxTitle']=$setting->getSetting('portfolio_title');
 ?>

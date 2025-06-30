@@ -134,5 +134,5 @@
 			self::$data['_page_details'][$name]=$value;
 		}
 	}
-	
+
 ?>

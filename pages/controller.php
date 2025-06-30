@@ -21,7 +21,6 @@
 	if(!isset($_GET['page']))
 		$_GET['page']="main";
 	
-	//var_dump($_GET);
 	$pagename =secure($_GET['page']);
 	
 	$page_db=new DB_PAGE();
@@ -51,7 +50,7 @@
 		
 		if($pageDetails['custom_page']==1){
 			$filename=SECTIONS.$pageDetails['name'].'.controller.php';
-			
+			//var_dump($filename);
 			if(file_exists($filename)){
 				Base::setIsCustomPage(true);
 				
@@ -59,9 +58,11 @@
 			}
 			
 			$filename=SECTIONS.Base::getPageName().'.view.php';
+			
 			if(Base::getIsCustomPage() && file_exists($filename)){
 				Base::setHasView(true);
 			}
+			
 		}
 	}
 	catch(Exception $e){
