@@ -2,16 +2,20 @@ $(document).ready(function(){
 
 	$(".owl-carousel").owlCarousel({
 		loop:true,
-		margin:10,
+		rtl:true,
+		margin:5,
 		nav:true,
 		responsive:{
 			0:{
-				items:1
+				items:1,
+				dots:false,
+				nav:false
 			},
-			600:{
-				items:3
+			480:{
+				items:3,
+				nav:false
 			},
-			1000:{
+			768:{
 				items:5
 			}
 		}
